@@ -1,0 +1,30 @@
+{
+  "name": "wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "belleza": "node belleza.js",
+    "bienestarsexual": "node bienestarsexual.js",
+    "cuidadopersonal": "node cuidadopersonal.js",
+    "dermocoaching": "node dermocoaching.js",
+    "infantilymama": "node infantilymama.js",
+    "medicamentos": "node medicamentos.js",
+    "mundomascotas": "node mundomascotas.js",
+    "ofertas": "node ofertas.js",
+    "wellness": "node wellness.js",
+    "allscript": "node belleza.js && node bienestarsexual.js && node cuidadopersonal.js && node dermocoaching.js && node infantilymama.js && node medicamentos.js && node mundomascotas.js && node ofertas.js && node wellness.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "fs-extra": "^8.1.0",
+    "morgan": "^1.9.1",
+    "npm-run-all": "^4.1.5",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
